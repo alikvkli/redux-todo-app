@@ -1,11 +1,15 @@
-
-import './App.css';
-import Counter from './components/Counter'
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 function App() {
   return (
-    <div className="App">
-      <Counter/>
-    </div>
+    <>
+      <section className="todoapp">
+        <Header />
+        <Content />
+      </section>
+      <Footer/>
+    </>
   );
 }
 
